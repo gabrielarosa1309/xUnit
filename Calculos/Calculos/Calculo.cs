@@ -17,5 +17,10 @@ namespace Calculos
         {
             return (x - y);
         }
+
+        public static double Dividir(double x, double y)
+        {
+            return (x / y);
+        }
     }
 }

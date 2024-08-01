@@ -25,19 +25,34 @@ namespace Calculos.Test
         //    Assert.Equal(valorEsperado, soma);
         //}
 
+        //[Fact]
+        //public void TestarMetodoSubtrair()
+        //{
+        //    // Arrange: organizar
+        //    var x1 = 7;
+        //    var x2 = 3;
+        //    var valorEsperado = 4;
+
+        //    // Act: agir
+        //    var subtracao = Calculo.Subtrair(x1, x2);
+
+        //    // Assert: provar
+        //    Assert.Equal(valorEsperado, subtracao);
+        //}
+
         [Fact]
-        public void TestarMetodoSubtrair()
+        public void TestarMetodoDividir()
         {
             // Arrange: organizar
-            var x1 = 7;
+            var x1 = 9;
             var x2 = 3;
-            var valorEsperado = 4;
+            var valorEsperado = 3;
 
             // Act: agir
-            var subtracao = Calculo.Subtrair(x1, x2);
+            var divisao = Calculo.Dividir(x1, x2);
 
             // Assert: provar
-            Assert.Equal(valorEsperado, subtracao);
+            Assert.Equal(valorEsperado, divisao);
         }
     }
 }
