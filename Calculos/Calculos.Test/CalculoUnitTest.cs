@@ -40,19 +40,34 @@ namespace Calculos.Test
         //    Assert.Equal(valorEsperado, subtracao);
         //}
 
+        //[Fact]
+        //public void TestarMetodoDividir()
+        //{
+        //    // Arrange: organizar
+        //    var x1 = 9;
+        //    var x2 = 3;
+        //    var valorEsperado = 3;
+
+        //    // Act: agir
+        //    var divisao = Calculo.Dividir(x1, x2);
+
+        //    // Assert: provar
+        //    Assert.Equal(valorEsperado, divisao);
+        //}
+
         [Fact]
-        public void TestarMetodoDividir()
+        public void TestarMetodoMultiplicar()
         {
             // Arrange: organizar
             var x1 = 9;
-            var x2 = 3;
-            var valorEsperado = 3;
+            var x2 = 8;
+            var valorEsperado = 72;
 
             // Act: agir
-            var divisao = Calculo.Dividir(x1, x2);
+            var multiplicacao = Calculo.Multiplicar(x1, x2);
 
             // Assert: provar
-            Assert.Equal(valorEsperado, divisao);
+            Assert.Equal(valorEsperado, multiplicacao);
         }
     }
 }

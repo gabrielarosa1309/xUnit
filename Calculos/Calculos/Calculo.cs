@@ -22,5 +22,10 @@ namespace Calculos
         {
             return (x / y);
         }
+
+        public static double Multiplicar(double x, double y)
+        {
+            return (x * y);
+        }
     }
 }
