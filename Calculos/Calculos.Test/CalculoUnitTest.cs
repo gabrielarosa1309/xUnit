@@ -10,19 +10,34 @@ namespace Calculos.Test
     {
         // AAA: Arrange, Act, Assert (agir, organizar e provar)
 
+        //[Fact]
+        //public void TestarMetodoSomar() 
+        //{
+        //    // Arrange: organizar
+        //    var x1 = 4.1;
+        //    var x2 = 5.9;
+        //    var valorEsperado = 10;
+
+        //    // Act: agir
+        //    var soma = Calculo.Somar(x1, x2);
+
+        //    // Assert: provar
+        //    Assert.Equal(valorEsperado, soma);
+        //}
+
         [Fact]
-        public void TestarMetodoSomar() 
+        public void TestarMetodoSubtrair()
         {
             // Arrange: organizar
-            var x1 = 4.1;
-            var x2 = 5.9;
-            var valorEsperado = 10;
+            var x1 = 7;
+            var x2 = 3;
+            var valorEsperado = 4;
 
             // Act: agir
-            var soma = Calculo.Somar(x1, x2);
+            var subtracao = Calculo.Subtrair(x1, x2);
 
             // Assert: provar
-            Assert.Equal(valorEsperado, soma);
+            Assert.Equal(valorEsperado, subtracao);
         }
     }
 }

@@ -12,5 +12,10 @@ namespace Calculos
         {
             return (x + y);
         }
+
+        public static double Subtrair(double x, double y)
+        {
+            return (x - y);
+        }
     }
 }
